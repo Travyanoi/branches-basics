@@ -19,6 +19,8 @@ int main()
     int b = minus(first, second);
 
     printf("sum = %d, minus = %d", a, b);
-    
+    printf("%d\n", sum(first, second));
+    printf("%d\n", minus(first, second));
+
     return 0;
 }
