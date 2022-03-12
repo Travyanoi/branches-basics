@@ -15,8 +15,10 @@ int main()
     printf("Hello World!\n");
     int first = 55;
     int second = 345;
-    sum(first, second);
-    minus(first, second);
+    int a = sum(first, second);
+    int b = minus(first, second);
 
+    printf("sum = %d, minus = %d", a, b);
+    
     return 0;
 }
